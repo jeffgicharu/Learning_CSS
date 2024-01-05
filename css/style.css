@@ -1,40 +1,11 @@
-html{
+body {
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: hsl(37, 51%, 71%);
+    color: rgb(0, 0, 0);
 }
 
-
-button,input,textarea.select{
-    font: inherit;
-}
-
-body{
-    
-}
-
-main{
-    font-family: monospace;
-}
-
-h1,h2{
-    color: blue;
-}
-
-p{
-    color: purple!important;
-}
-p{
-    color: red;
-}
-
-.highlight{
-    text-transform: uppercase;
-    background-color: gold;
-}
-
-.gray{
-    color: gray;
-}
-
-#second{
-    font-style: italic;
+p {
+    color: #333;
 }
