@@ -1,32 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    padding: 10%;
     font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-ol{
-    list-style-type: lower-alpha;
-    padding: 0;
+ul {
+    
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: #000;
+    margin: 0;
 }
 
-ul{
-    list-style-type: square;
-    text-align: center;
-    list-style-position: inside;
-    line-height: 1.6;
-    /* list-style-image: url('/images/checkmark.png');
-    list-style: square url('/images/checkmark.png') inside; */
+li {
+    display: inline-block;
+    margin-inline: 0.5rem;
 }
 
-ul li:nth-child(even){
-    color: red;
+li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-ul ::marker{
-    color: red;
-    font-family: fantasy;
-    font-size: 1em;
-    content: "Only $5 >>";
+li a:hover,
+li a:focus {
+    text-decoration: underline;
 }
